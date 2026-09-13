@@ -25,9 +25,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/darkangelmc/pyenginex"
-Source = "https://github.com/darkangelmc/pyenginex"
-Issues = "https://github.com/darkangelmc/pyenginex/issues"
+Homepage = "https://github.com/darkangelmc/PyEngine-X"
+Source = "https://github.com/darkangelmc/PyEngine-X"
+Issues = "https://github.com/darkangelmc/PyEngine-X/issues"
 
 [tool.setuptools.packages.find]
 include = ["pyenginex*"]
