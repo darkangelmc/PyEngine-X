@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyengine-x"
+version = "0.1.0"
+description = "PyEngine-X is a lightweight Python library that simplifies 2D game development by handling routine tasks."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "DaarkAngellmc", email = "daarkangellmc@mail.ru" }
+]
+keywords = ["pygame", "engine", "2d", "game", "gamedev"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "pygame-ce",
+]
+
+[project.urls]
+Homepage = "https://github.com/darkangelmc/pyenginex"
+Source = "https://github.com/darkangelmc/pyenginex"
+Issues = "https://github.com/darkangelmc/pyenginex/issues"
+
+[tool.setuptools.packages.find]
+include = ["pyenginex*"]
